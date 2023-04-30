@@ -6,13 +6,13 @@ import streamlit as sl
 
 
 
-pickle_1=open("D:/New folder/model_lr.sav","rb")
-model1=pickle.load(pickle_1)
+# pickle_1=open("D:/New folder/model_lr.sav","rb")
+# model1=pickle.load(pickle_1)
 
-pickle_2=open("D:/New folder/model_svc.sav","rb")
-model2=pickle.load(pickle_2)
+# pickle_2=open("D:/New folder/model_svc.sav","rb")
+# model2=pickle.load(pickle_2)
 
-pickle_3=open("D:/New folder/model_xgb.sav","rb")
+pickle_3=open("model_xgb.sav","rb")
 model3=pickle.load(pickle_3)
 
 def compute(input_values):
