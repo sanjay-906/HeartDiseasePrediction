@@ -3,7 +3,9 @@ OUTPUT: <a href="https://sanjay-906-heartdiseaseprediction-ui-pnngz8.streamlit.a
 
  This project uses Logistic Regression, Support Vector Machines and XGBOOST algorithms.<br>
  Cross Validation, GridSearch CV and Bayesian Optimization were used respectively for Hyperparameter Tuning.<br>
+ Several Accuracy metrices were used to judge the performance of the models.<br>
  Final Accuracy:<br> 
     > Logistic Regression=  81.35%<br>
     > SVM= 83.15%<br>
     > XGBoost= 85.32%<br>
+Model Deployed using Streamlit Cloud
